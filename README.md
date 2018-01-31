@@ -1,0 +1,2 @@
+# threadtest
+c++ thread
