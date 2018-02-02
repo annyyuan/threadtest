@@ -74,7 +74,7 @@ void ParallelExecute(int seconds,bool output) {
 
 int main(int argc, char ** argv) 
 {
-  if( argc < 3 && argc>4 ){
+  if( argc < 3 || argc>4 ){
     std::cout << helpStr << std::endl;
     return -1;
   }
